@@ -30,10 +30,4 @@ class MyTest {
 		
 	}
 	
-	@Test
-	void test2() {
-		if(ff.getFibonacci(1) != 1)
-		    fail("fibonacci test2 failed");
-		
-	}
 }
