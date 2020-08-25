@@ -23,4 +23,10 @@ class MyTest {
 		    fail("geometry test failed");
 	}
 
+	@Test
+	void test1() {
+		if(ff.getFibonacci(5) != 5)
+		    fail("fibonacci test failed");
+		
+	}
 }
