@@ -29,4 +29,11 @@ class MyTest {
 		    fail("fibonacci test failed");
 		
 	}
+	
+	@Test
+	void test2() {
+		if(ff.getFibonacci(1) != 1)
+		    fail("fibonacci test2 failed");
+		
+	}
 }
